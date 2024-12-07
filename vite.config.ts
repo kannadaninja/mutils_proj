@@ -10,7 +10,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         format: 'umd',  // Specify the UMD output format
-        dir: 'dist',  // Specify the output directory
+        dir: '.',  // Specify the output directory
         entryFileNames: 'utils.umd.js',  // This ensures the output file is named `utils.umd.js`
         globals: {},  // Optionally define global variables if needed for external libraries
       },
